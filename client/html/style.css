@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Syncopate|Unica+One');
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
+@import url('https://fonts.googleapis.com/css?family=Unica+One');
 
 body, html {
 	overflow-y: hidden;
@@ -57,8 +56,8 @@ h4{
 	bottom: 20%;
 }
 
-.general{
-    background-image: url('img/phone.png');
+.general,.depositUI,.balanceUI, .transferUI,.withdrawUI{
+	background-image: url('img/phone.png');
 	background-repeat: no-repeat;
 	font-family: 'Unica One', cursive;
 	background-size: 620px 430px;
@@ -67,96 +66,20 @@ h4{
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-    padding: 10px;
-	position: absolute;
+    	padding: 10px 10px 20px 10px;
 	top: 50%;
 	left: 70%;
 	margin-top: -250px;
 	margin-left: -400px;
-	padding-bottom: 20px;
 }
 
-.depositUI{
-    background-image: url('img/phone.png');
-	background-repeat: no-repeat;
-	font-family: 'Unica One', cursive;
-	background-size: 620px 430px;
-	width: 600px;
-	height: 400px;
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-    padding: 10px;
-	position: absolute;
-	top: 50%;
-	left: 70%;
-	margin-top: -250px;
-	margin-left: -400px;
-	padding-bottom: 20px;
-}
-.withdrawUI{
-    background-image: url('img/phone.png');
-	background-repeat: no-repeat;
-	font-family: 'Unica One', cursive;
-	background-size: 620px 430px;
-	width: 600px;
-	height: 400px;
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-    padding: 10px;
-	position: absolute;
-	top: 50%;
-	left: 70%;
-	margin-top: -250px;
-	margin-left: -400px;
-	padding-bottom: 20px;
-}
 
-.balanceUI{
-    background-image: url('img/phone.png');
-	background-repeat: no-repeat;
-	font-family: 'Unica One', cursive;
-	background-size: 620px 430px;
-	width: 600px;
-	height: 400px;
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-    padding: 10px;
-	position: absolute;
-	top: 50%;
-	left: 70%;
-	margin-top: -250px;
-	margin-left: -400px;
-	padding-bottom: 20px;
-}
-
-.transferUI{
-    background-image: url('img/phone.png');
-	background-repeat: no-repeat;
-	font-family: 'Unica One', cursive;
-	background-size: 620px 430px;
-	width: 600px;
-	height: 400px;
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-    padding: 10px;
-	position: absolute;
-	top: 50%;
-	left: 70%;
-	margin-top: -250px;
-	margin-left: -400px;
-	padding-bottom: 20px;
-}
 
 #from, #to, #amountt {
-	position: relative;
+    position: relative;
     top: 100px;
     left: 62px;
-    
-	font-family: 'Unica One';
+    font-family: 'Unica One';
     width: 40%;
     height: 8%;
     padding: 5px 5px;
@@ -194,18 +117,15 @@ h1{
 
 
 input[type=text] {
-	position: relative;
+    position: relative;
     top: 100px;
     left: 62px;
-    
-	font-family: 'Unica One';
+    font-family: 'Unica One';
     width: 80%;
     height: 15%;
     padding: 5px 5px;
     margin: 40px 0;
     box-sizing: border-box;
- 
-	
 }
 
 
